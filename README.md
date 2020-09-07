@@ -3,11 +3,11 @@ HI cloud identification method
 
 - *Version:* 1.0.1
 - *Author:* Gina Panopoulou
-========
+
 
 Purpose
 =======
-`cloudcount' uses a Gaussian decomposition of HI line emission data to identify kinematicaly distinct peaks in the spectra (`clouds'). 
+`cloudcount` uses a Gaussian decomposition of HI line emission data to identify kinematicaly distinct peaks in the spectra (clouds). 
 
 Preferred citation method
 =========================
@@ -38,10 +38,11 @@ The program has been tested to work with the following package versions:
 - astropy 2.0.9
 - pytables 3.4.4
 - numpy
+
 If you want to run the notebooks yourself, you will also need the Jupyter
 server and matplotlib.
 
 Where to start
 ======
-If you wish to run the method on a selected patch of sky, follow the notebook `Running_the_method' (or it's .py version)
-If you wish to use the data products presented in the paper, follow the notebook `PublicData/DataUsageTutorial' (or it's .py version)
+- If you wish to run the method on a selected patch of sky, follow the notebook `Running_the_method' (or it's .py version)
+- If you wish to use the data products presented in the paper, follow the notebook `PublicData/DataUsageTutorial' (or it's .py version)
