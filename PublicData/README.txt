@@ -4,6 +4,8 @@ Publications that make use of these datasets should acknowledge the published ve
 Panopoulou & Lenz, 2020, Maps of the number of HI clouds along the line of sight at high galactic latitude
 https://ui.adsabs.harvard.edu/abs/2020arXiv200400647P/abstract
 
+The code used to generate these datasets is available at https://github.com/ginleaf/cloudcount
+
 Abstract:
 
 Characterizing the structure of the Galactic Interstellar Medium (ISM) in three dimensions is of high importance for accurate modeling of dust emission as a foreground to the Cosmic Microwave Background (CMB). At high Galactic latitude, where the total dust content is low, accurate maps of the 3D structure of the ISM are lacking. We develop a method to quantify the complexity of the distribution of dust along the line of sight with the use of HI line emission. The method relies on a Gaussian decomposition of the HI spectra to disentangle the emission from overlapping components in velocity. We use this information to create maps of the number of clouds along the line of sight. We apply the method to: (a) the high-galactic latitude sky and (b) the region targeted by the BICEP/Keck experiment. In the North Galactic Cap we find on average 3 clouds per 0.2 square degree pixel, while in the South the number falls to 2.5. The statistics of the number of clouds are affected by Intermediate-Velocity Clouds (IVCs), primarily in the North. IVCs produce detectable features in the dust emission measured by Planck. We investigate the complexity of HI spectra in the BICEP/Keck region and find evidence for the existence of multiple components along the line of sight. The data and software are made publicly available, and can be used to inform CMB foreground modeling and 3D dust mapping.
