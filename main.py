@@ -305,8 +305,8 @@ def run_cloud_identification(SFILENAME, sdir, datafile, RMSCUT = 0, SIGMACUT = 1
             for mm in chans[maxima]:
                 plt.axvline(mm)
             plt.show()
-            print 'Skipping pixid',pixid, 'due to error - Something wrong with minmax determination!'#minima, maxima
-            print len(minima), len(maxima)
+            print( 'Skipping pixid',pixid, 'due to error - Something wrong with minmax determination!')#minima, maxima
+            print( len(minima), len(maxima))
             raise
 
         N_gaussians = np.zeros_like(chans[maxima])
@@ -331,7 +331,7 @@ def run_cloud_identification(SFILENAME, sdir, datafile, RMSCUT = 0, SIGMACUT = 1
                 #cloud['means_kms'] = means_kms[within_peak]
                 #cloud['sigmas_kms'] = sigmas_kms[within_peak]
                 cloud['amps'] = amps[within_peak]
-    	        cloud['line_integral_kmsK'] = ampskmsK[within_peak]
+                cloud['line_integral_kmsK'] = ampskmsK[within_peak]
                 cloud['hpxind'] = hpxind[within_peak]
 
                 # Find the intensity of the cloud by summing the contribution of all its Gaussians 
